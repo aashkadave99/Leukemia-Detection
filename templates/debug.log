@@ -1,0 +1,22 @@
+[1013/115816.729:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/115816.731:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190104.059:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190104.067:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190112.179:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190112.179:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190139.483:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190139.483:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1013/190353.161:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/190353.169:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/190958.550:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/190958.550:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191253.515:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191253.515:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191303.468:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191303.468:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191353.161:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191353.161:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1013/191353.162:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Aashka\AppData\Local\Google\Chrome\User Data\Crashpad\reports\4f600b0e-9878-4063-b765-b60b62192886.dmp: The system cannot find the file specified. (0x2)
+[1013/191353.162:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Aashka\AppData\Local\Google\Chrome\User Data\Crashpad\reports\3917bcb5-7141-486f-b664-99f299362d25.dmp: The system cannot find the file specified. (0x2)
+[1013/191353.162:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/103856.870:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

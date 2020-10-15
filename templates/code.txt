@@ -1,0 +1,23 @@
+UPLOAD_FOLDER = os.path.dirname(os.path.abspath(file)) + '/uploads/'
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            flash('No file part')
+            return 'No file part'
+        file = request.files['file']
+        # if user does not select file, browser also
+        # submit an empty part without filename
+        if file.filename == '':
+            return render_template('index.html', error='No image uploaded!')
+        if file and allowed_file(file.filename):
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'],'download.jpg'))
+            if request.form['go']=='encrypt':
+                return redirect(url_for('image'))
+            return redirect(url_for('decode1'))
+        else:
+            return render_template('index.html', error='Please upload an image file')
+    return render_template('index.html')

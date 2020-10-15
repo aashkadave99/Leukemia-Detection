@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leukemia Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Recursive&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="https://kit.fontawesome.com/4cf62cb5b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="main-header"> 
+            <div class="title-header">
+                <h1 class="title-heading">Leukemia Detection</h1>
+            </div>
+            <div class="nav-header">
+                <nav class="nav-items">
+                    <ul>
+                        <li><a href="#about-us">About the Project</a></li>
+                        <li><a href="{{url_for('detectLeukemia')}}">Detect</a></li>
+                        <li><a href="#get-in-touch">Get in touch</a></li>
+                    </ul>  
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container" style="background-image: url('../static/images/html/leukemia.jpg');">
+            <!--img src="images/travelfinal.jpg" alt="" class="title-img"-->
+                <p class="info">
+                    Leukemia is a <strong> cancer of the blood cells. </strong> There are several broad categories of blood cells, including red blood cells (RBCs), white blood cells (WBCs), and platelets. <br> 
+                    Generally, leukemia refers to <strong>cancers of the WBCs.</strong>  <br>
+                    WBCs are a vital part of your immune system.<br>
+                    They protect your body from invasion by bacteria, viruses, and fungi, as well as from abnormal cells and other foreign substances. <br> 
+                    In leukemia, <em> the WBCs don’t function like normal WBCs. </em><br> 
+                    Leukemia begins in a cell in the bone marrow. <br> 
+                    The cell undergoes a change and becomes a type of leukemia cell.  <br> 
+                    Once the marrow cell undergoes a leukemic change, the leukemia cells may grow and survive better than normal cells.<br> 
+                    Over time, the <strong><em>leukemia cells crowd out or suppress the development of normal cells </em></strong>  <br>
+                
+        </div>
+
+        <a name='about-us'></a>
+        <!-- About Us -->
+        <section>
+
+            <div class="content">
+                <h3 class="content-title">Healhy Cell vs Leukemia</h4>
+                <div class="img1">
+                    <img src="static/images/html/normal.jpg" height="150px" style="border-radius: 100%;">
+                </div>
+                <div class="img2">
+                    <img src="static/images/html/infected cell.jpg" height="150px" style="border-radius: 100%;">
+                </div>
+                <div class="para">
+                    Abnormal levels of white blood cells and abnormally low red blood cell or platelet counts can also indicate leukemia. <br>
+                    Thus, it can be seen that in cells infected with Leukemia, the <strong>count of WBCs increases drastically</strong> 
+                </div>
+            </div>
+
+        </section>  
+
+        <section class="implementation">
+            <h3 class="implementation-title">IMPLEMENTATION</h4>
+            <h4 class="step-title">Step 1: Image Preprocessing and Enhancement</h4>
+            <div class="pre">
+                <img src="static/images/html/rgb2gray.png" style="height: inherit;"  alt="">
+                <img src="static/images/html/contrast.png" style="height: inherit;" alt="">
+                <img src="static/images/html/hist1.png" style="height: inherit;" alt="hist">
+                <img src="static/images/html/enhanced.png" style="height: inherit;" alt="">
+            </div>
+            <h4 class="step-title">Step 2: Edge Detection and Feature Extraction</h4>
+            <div class="post">
+                <img src="static/images/html/thresholding.png" style="height: inherit;"  alt="">
+                <img src="static/images/html/open.png" style="height: inherit;" alt="">
+                <img src="static/images/html/edge.png" style="height: inherit;" alt="hist">
+                <img src="static/images/html/infected.png" style="height: inherit;" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Appointment</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Recursive&family=Roboto&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="static/css/styles.css">
+	</head>
+	<body>
+		<header>
+			<div class="main-header"> 
+				<div class="title-header">
+					<h1 class="title-heading">Leukemia Detection</h1>
+				</div>
+				<div class="nav-header">
+					<nav class="nav-items">
+						<ul>
+							<li><a href="{{url_for('detectLeukemia')}}" target="_blank">About the Project</a></li>
+							<li><a href="">Detect</a></li>
+							<li><a href="{{url_for('detectLeukemia')}}#get-in-touch">Get in touch</a></li>
+						</ul>  
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--
+		<p align="center">
+			<font color="red" style="font-family: Trebuchet MS" size="10vh">Get your test done today.</font>
+		</p>
+	-->
+	<section class="content">				
+		<form>
+			<label for="avatar">Upload an image:</label>
+			<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+			<br>
+			<br>
+			<input type="submit" name="Submit">
+			<input type="reset" name="Reset">
+		</form>
+		</section>
+	</body>
+</html>

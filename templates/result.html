@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RESULTS</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Recursive&family=Roboto&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="../static/css/styles.css">
+	</head>
+	<body>
+		<header>
+			<div class="main-header"> 
+				<div class="title-header">
+					<h1 class="title-heading">Leukemia Detection</h1>
+				</div>
+				<div class="nav-header">
+					<nav class="nav-items">
+						<ul>
+							<li><a href="{{url_for('index')}}">About the Project</a></li>
+							<li><a href="{{url_for('detectLeukemia')}}">Detect</a></li>
+							<li><a href="#get-in-touch">Get in touch</a></li>
+						</ul>  
+					</nav>
+				</div>
+			</div>
+		</header>
+
+	<section class="implementation">
+		<h3 class="implementation-title">SEE RESULTS</h4>
+            <h4 class="step-title">Step 1: Image Preprocessing and Enhancement</h4>
+            <div class="pre">
+                <img src="../static/images/user/file1.jpg" style="height: inherit;"  alt="">
+                <img src="../static/images/user/file2.jpg" style="height: inherit;" alt="">
+                <img src="../static/images/user/file3.jpg" style="height: inherit;" alt="">
+                <img src="../static/images/user/file4.jpg" style="height: inherit;" alt="">
+                <img src="../static/images/user/file5.jpg" style="height: inherit;" alt="">
+			</div>
+            <h4 class="step-title">Step 2: Edge Detection and Feature Extraction</h4>
+            <div class="post">
+                <img src="../static/images/user/file6.jpg" style="height: inherit;"  alt="">
+                <img src="../static/images/user/file7.jpg" style="height: inherit;" alt="">
+                <img src="../static/images/user/file8.jpg" style="height: inherit;" alt="">
+                <img src="../static/images/user/file9.jpg" style="height: inherit;" alt="">
+            </div>
+	</section>
+	
+	</body>
+</html>

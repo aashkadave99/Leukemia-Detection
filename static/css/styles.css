@@ -1,0 +1,176 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #646464; 
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+/* Header */ 
+
+.main-header{
+  height: 90px;
+  background-color:#646464 ;
+  width: 100%;
+}
+
+.title-header{
+  font-family: 'Recursive', sans-serif; 
+  width: 60%;
+  float: left;
+  height: inherit;
+  padding-left: 3%;
+  display: flex;
+  vertical-align: center; 
+}
+
+.title-heading{
+  color: white;
+}   
+
+.nav-header{
+  font-family: 'Recursive', sans-serif;
+  font-weight: lighter;
+  width: 37%;
+  float: right;
+  height: inherit;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  padding: 5%;
+}
+
+li{
+  display: inline;
+  padding: 0 5%;
+}
+
+a{
+  color:#fff8cd;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#ffe05d;
+}
+
+/* Main image */
+.container{
+  height: 75vh;
+  
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 1% auto;
+}
+ .info{
+  position: relative;
+  top: 10%;
+  left: 50%;
+  text-align: left;
+  color: rgb(87, 84, 84);
+  width: 40%;
+}
+
+/* Articles */
+
+.section-header{
+  text-align: center;
+  background-color:#075f7a; 
+  width: 100%;
+  padding: 0.5%;
+}
+
+.section-heading{
+  color: white;
+}
+
+.main-article{
+  overflow: auto;
+  padding: 3% 1%;
+}
+
+.content{
+  padding: 2% 4%;
+  margin: 1% auto;
+  background-color: #fff8cd;
+  color: darkslategrey;
+  font-family: 'Recursive', sans-serif; 
+  width: 100%;
+  height: 250px;
+}
+
+.img1{
+  float: left;
+  width: 20%;
+  height: inherit;
+}
+
+.img2{
+  float: left;
+  width: 20%;
+  height: inherit;
+}
+
+.para{
+  float: left;
+  width: 50%;
+  height: inherit;
+}
+
+.content-title{
+  /*padding-top: 2%;*/
+  color: #ff9642;
+  text-align: center;
+}
+
+
+/* Footer */
+
+.implementation{
+  text-align: center; 
+  background-color: #ff9642;
+  color: #eeeeee;
+  padding-bottom: 2%;
+}
+
+.implementation-title, .step-title {
+  color: #eeeeee;
+  padding-top: 0%;
+}
+
+.pre, .post{
+  height: 200px;
+  width: 100%;
+}
+
+input[type=submit], input[type=reset]{
+  border-radius: 5px;
+  background-color:#ff9642;
+  border: none;
+  padding: 1% 3%;
+}
+
+
+input[type=submit]:hover, input[type=reset]:hover{
+  border-radius: 5px;
+  background-color:#ee6f57;
+  border: none;
+  padding: 1% 3%;
+}
+
+.form-content{
+  padding-top: 10%;
+}
+
+.figure{
+  width: 15%;
+  float: left;
+  text-align: center;
+}
